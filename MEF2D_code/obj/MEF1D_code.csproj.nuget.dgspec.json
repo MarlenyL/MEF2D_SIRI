@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_code\\MEF2D_code\\MEF1D_code.csproj": {}
+    "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_SIRI\\MEF2D_code\\MEF1D_code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_code\\MEF2D_code\\MEF1D_code.csproj": {
+    "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_SIRI\\MEF2D_code\\MEF1D_code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_code\\MEF2D_code\\MEF1D_code.csproj",
+        "projectUniqueName": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_SIRI\\MEF2D_code\\MEF1D_code.csproj",
         "projectName": "MEF1D_code",
-        "projectPath": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_code\\MEF2D_code\\MEF1D_code.csproj",
+        "projectPath": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_SIRI\\MEF2D_code\\MEF1D_code.csproj",
         "packagesPath": "C:\\Users\\rocio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_code\\MEF2D_code\\obj\\",
+        "outputPath": "C:\\Users\\rocio\\Documents\\WORKSPACE_2021\\Simulacion\\optativas\\MEF2D_SIRI\\MEF2D_code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rocio\\AppData\\Roaming\\NuGet\\NuGet.Config",

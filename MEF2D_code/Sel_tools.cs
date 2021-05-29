@@ -13,9 +13,9 @@ namespace MEF1D_code
         //- Una matriz
         //La función muestra en pantalla el contenida de la matrix, fila por fila
         public static void showMatrix(Matrix K){
-            for(int i=0;i<K[0].Count;i++){
+            for(int i=0;i<K.Count;i++){
                 Console.Write("[\t");
-                for(int j=0;j<K.Count;j++){
+                for(int j=0;j<K[i].Count;j++){
                     Console.Write(Math.Round(K[i][j],2)+ "\t");
                 }
                 Console.Write("]\n");

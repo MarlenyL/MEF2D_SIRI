@@ -109,10 +109,15 @@ namespace MEF1D_code
             }
         }
 
-        public static float calculateMember(int i,int j,int r,Matrix A,Matrix B){
-            float member = 0;
+        public static double calculateMember(int i,int j,int r,Matrix A,Matrix B){
+            double member = 0;
             for(int k=0;k<r;k++)
-                member += (float)A[i][k]*(float)B[k][j];
+            {
+                double auxA = A[i][k];
+                double auxB = B[k][j];
+                member += 1.0*auxA*auxB;
+            }
+                
             return member;
         }
 
@@ -229,7 +234,7 @@ namespace MEF1D_code
         public static void transpose(Matrix M, ref Matrix T){
             //Se prepara la matriz resultante con las mismas dimensiones
             //de la matriz original
-            zeroes(ref T,M.Count);
+            zeroes(ref T,M[0].Count,M.Count);
             //Se recorre la matriz original
             for(int i=0;i<M.Count;i++)
                 for(int j=0;j<M[0].Count;j++)

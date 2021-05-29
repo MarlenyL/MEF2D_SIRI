@@ -63,7 +63,6 @@ namespace MEF1D_code
                     int e5; float r0,rr;
                     string phrase3 = file.ReadLine();
                     string[] words3 = phrase3.Split("       ");
-                    Console.WriteLine(phrase3);
                     e5 = Int32.Parse(words3[0]);
                     r0 = float.Parse(words3[1]);
                     rr = float.Parse(words3[2]);
